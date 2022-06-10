@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/CSS/base.css">
+    <link rel="stylesheet" href="./asset/CSS/style.css">
+    <link rel="stylesheet" href="/assest/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="/assest/css/grid.css">
+    <link rel="stylesheet" href="/assest/font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- <p class="night-reading">Chế độ đọc ban đêm</p> -->
+        <input type="checkbox" name="" class="switch-toggle" id="light-dark" title="Chế độ đọc ban đêm" data-title="Chế độ đọc ban đêm">
+        
+    </div>
+    <div class="grid wide backgr-body">
+        <header>
+            <div class="header">
+                <div class="header-logo">
+                    <img src="./asset/IMG/logo-mona-1-300x120.png" alt="" class="header-img">
+                </div>
+                <div class="header-menu" style="height: 48px;">
+                        <ul class="header-list">
+                            <li class="header-list_item">
+                                <a href="#" class="header-list_item-link" onclick="changeColor(this)">
+                                    Thế giới
+                                </a>
+                            </li>
+                            <li class="header-list_item">
+                                <a href="#" class="header-list_item-link" onclick="changeColor(this)">
+                                    SỐ Hóa
+                                </a>
+                            </li>
+                            <li class="header-list_item">
+                                <a href="#" class="header-list_item-link" onclick="changeColor(this)">
+                                    Thể Thao
+                                </a>
+                            </li>
+                            <li class="header-list_item">
+                                <a href="#" class="header-list_item-link" onclick="changeColor(this)">
+                                    Giải Trí
+                                </a>
+                            </li>
+                            <li class="header-list_item">
+                                <a href="#" class="header-list_item-link" onclick="changeColor(this)">
+                                    Kinh Doanh
+                                </a>
+                            </li>
+                            <li class="header-list_item">
+                                <a href="#" class="header-list_item-link" onclick="changeColor(this)">
+                                    Du lịch
+                                </a>
+                            </li>
+                            <li class="header-list_item">
+                                <a href="#" class="header-list_item-link" onclick="changeColor(this)">
+                                    Sức Khỏe
+                                </a>
+                            </li>
+                            <li class="header-list_item">
+                                <a href="#" class="header-list_item-link" onclick="changeColor(this)">
+                                    Giáo Dục
+                                </a>
+                            </li>
+                            <li class="header-list_item">
+                                <a href="#" class="header-list_item-link" onclick="changeColor(this)">
+                                    Khoa Học
+                                </a>
+                            </li>
+                            <li class="header-list_item">
+                                <a href="#" class="header-list_item-link" onclick="changeColor(this)">
+                                    Pháp Luật
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="header-icon_search">
+                            <label for="open-search" class="header__body-search">
+                                <i class="fas fa-search"></i>
+                                <input type="checkbox" name="" id="open-search" class="check" hidden>
+                                <form action="" class="search">
+                                    <input type="text"  placeholder="Search..." class="search-input">
+                                    <input type="submit" value="Search" class="search-btn">
+                                </form>
+                                
+                            </label>
+                        </div>
+                </div>
+                
+            </div>
+        </header>
+
+        <!-- container -->
+        <main>
+            <div class="row">
+                <div class="col l-12">
+                    <div class="main-news">
+                        <div class="row">
+                            <div class="col l-6 hover">
+                                <a href="#" class="main-news_links ">
+                                    <span class="main-news_item backgr-shadow" style="background-image: url(./asset/IMG/sapa.jpg);">
+                                        <div class="main-news_title">
+                                            <a href="" class="main-news_title-link">
+                                                Du Lịch
+                                            </a>
+                                            <div class="main-news_title-head">
+                                                Ba khu nghỉ dưỡng sang trọng tại SaPa
+                                            </div>
+                                            <div class="main-news_title-editor">
+                                                <span class="title-editor_author">
+                                                    mona
+                                                </span>
+                                                <span style="margin: 0 4px;">-</span>
+                                                <span class="title-editor_date">
+                                                    11 Tháng Tư, 2021
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col l-6">
+                                <div class="main-news_tow">
+                                    <div class="row">
+                                        <div class="col l-12 hover">
+                                            <a href="#" class="main-news_links-tow ">
+                                                <span class="main-news_item-tow backgr-shadow" style="background-image: url(./asset/IMG/a2.jpg);">
+                                                    <div class="main-news_title-tow">
+                                                        <a href="" class="main-news_title-link-tow">
+                                                            Giải Trí
+                                                        </a>
+                                                        <div class="main-news_title-head-tow">
+                                                            Ba khu nghỉ dưỡng sang trọng tại SaPa
+                                                        </div>
+                                                        <!-- <div class="main-news_title-editor">
+                                                            <span class="title-editor_author">
+                                                                mona
+                                                            </span>
+                                                            <span>-</span>
+                                                            <span class="title-editor_date">
+                                                                11 Tháng Tư, 2021
+                                                            </span>
+                                                        </div> -->
+                                                    </div>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="col l-12 hover">
+                                            <a href="#" class="main-news_links-tow ">
+                                                <span class="main-news_item-tow backgr-shadow" style="background-image: url(./asset/IMG/go-joon-hee-1554178257_1200x0-696x418.jpg);">
+                                                    <div class="main-news_title-tow">
+                                                        <a href="" class="main-news_title-link-tow">
+                                                            Khoa Học
+                                                        </a>
+                                                        <div class="main-news_title-head-tow">
+                                                            Ba khu nghỉ dưỡng sang trọng tại SaPa 
+                                                        </div>
+                                                        <!-- <div class="main-news_title-editor">
+                                                            <span class="title-editor_author">
+                                                                mona
+                                                            </span>
+                                                            <span>-</span>
+                                                            <span class="title-editor_date">
+                                                                11 Tháng Tư, 2021
+                                                            </span>
+                                                        </div> -->
+                                                    </div>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-wallpaper">
+                        <div class="row">
+                            <div class="col l-2-4">
+                                <a href="#" class="main-wallpaper_links">
+                                    <img src="./asset/IMG/fuji-and-pagoda-PPU27QC.jpg" alt="" class="main-wallpaper_img">
+                                    <h3 class="main-wallpaper_title">
+                                        Cách xin Visa Nhật Bản và Hàn Quốc
+                                    </h3>
+                                    <div class="main-wallpaper_date">
+                                        10 Tháng Tư, 2019
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2-4">
+                                <a href="#" class="main-wallpaper_links">
+                                    <img src="./asset/IMG/fuji-and-pagoda-PPU27QC.jpg" alt="" class="main-wallpaper_img">
+                                    <h3 class="main-wallpaper_title">
+                                        Cách xin Visa Nhật Bản và Hàn Quốc
+                                    </h3>
+                                    <div class="main-wallpaper_date">
+                                        10 Tháng Tư, 2019
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2-4">
+                                <a href="#" class="main-wallpaper_links">
+                                    <img src="./asset/IMG/fuji-and-pagoda-PPU27QC.jpg" alt="" class="main-wallpaper_img">
+                                    <h3 class="main-wallpaper_title">
+                                        Cách xin Visa Nhật Bản và Hàn Quốc
+                                    </h3>
+                                    <div class="main-wallpaper_date">
+                                        10 Tháng Tư, 2019
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2-4">
+                                <a href="#" class="main-wallpaper_links">
+                                    <img src="./asset/IMG/fuji-and-pagoda-PPU27QC.jpg" alt="" class="main-wallpaper_img">
+                                    <h3 class="main-wallpaper_title">
+                                        Cách xin Visa Nhật Bản và Hàn Quốc
+                                    </h3>
+                                    <div class="main-wallpaper_date">
+                                        10 Tháng Tư, 2019
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2-4">
+                                <a href="#" class="main-wallpaper_links">
+                                    <img src="./asset/IMG/fuji-and-pagoda-PPU27QC.jpg" alt="" class="main-wallpaper_img">
+                                    <h3 class="main-wallpaper_title">
+                                        Cách xin Visa Nhật Bản và Hàn Quốc
+                                    </h3>
+                                    <div class="main-wallpaper_date">
+                                        10 Tháng Tư, 2019
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-btn">
+                        <a href="" class="main-btn_links btn-disibale">
+                            <i class="ti-angle-left main-btn_icon"></i>
+                        </a>
+                        <a href="" class="main-btn_links">
+                            <i class="ti-angle-right main-btn_icon"></i>
+                        </a>
+                    </div>
+                    <div class="main-bottom">
+                        <div class="border-and"></div>
+                    </div>
+                    <div class="main-container main-bottom">
+                        <div class="row">
+                            <div class="col l-8">
+                                <div class="main-container_elm">
+                                    <div class="row">
+                                        <div class="col l-12">
+                                            <div class="main-container_list">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/Poster-lat-mat.jpg" alt="" class="container-list_img">
+                                                    <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a>
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title">
+                                                        <a href="">
+                                                            ‘Lật mặt 4’ sẽ phát hành ở Mỹ và Australia
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/Poster-lat-mat.jpg" alt="" class="container-list_img">
+                                                    <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a>
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title">
+                                                        <a href="">
+                                                            ‘Lật mặt 4’ sẽ phát hành ở Mỹ và Australia
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/Poster-lat-mat.jpg" alt="" class="container-list_img">
+                                                    <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a>
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title">
+                                                        <a href="">
+                                                            ‘Lật mặt 4’ sẽ phát hành ở Mỹ và Australia
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/Poster-lat-mat.jpg" alt="" class="container-list_img">
+                                                    <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a>
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title">
+                                                        <a href="">
+                                                            ‘Lật mặt 4’ sẽ phát hành ở Mỹ và Australia
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/Poster-lat-mat.jpg" alt="" class="container-list_img">
+                                                    <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a>
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title">
+                                                        <a href="">
+                                                            ‘Lật mặt 4’ sẽ phát hành ở Mỹ và Australia
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/Poster-lat-mat.jpg" alt="" class="container-list_img">
+                                                    <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a>
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title">
+                                                        <a href="">
+                                                            ‘Lật mặt 4’ sẽ phát hành ở Mỹ và Australia
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/Poster-lat-mat.jpg" alt="" class="container-list_img">
+                                                    <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a>
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title">
+                                                        <a href="">
+                                                            ‘Lật mặt 4’ sẽ phát hành ở Mỹ và Australia
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/Poster-lat-mat.jpg" alt="" class="container-list_img">
+                                                    <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a>
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title">
+                                                        <a href="">
+                                                            ‘Lật mặt 4’ sẽ phát hành ở Mỹ và Australia
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/Poster-lat-mat.jpg" alt="" class="container-list_img">
+                                                    <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a>
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title">
+                                                        <a href="">
+                                                            ‘Lật mặt 4’ sẽ phát hành ở Mỹ và Australia
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/Poster-lat-mat.jpg" alt="" class="container-list_img">
+                                                    <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a>
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title">
+                                                        <a href="">
+                                                            ‘Lật mặt 4’ sẽ phát hành ở Mỹ và Australia
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                            
+                        
+                            <div class="col l-4">
+                                <div class="main-container_warp">
+                                    <a href="" class="" style="background-image: url(/TKW/BTL/asset/IMG/banner-the-phoenix-dan-phuong-300x700.jpg);">
+                                        <!-- <img src="./asset/IMG/banner-the-phoenix-dan-phuong-300x700.jpg" alt=""> -->
+                                    </a>
+                                </div>
+                                <div class="main-container_warp">
+                                    <a href="" class="" style="background-image: url(/TKW/BTL/asset/IMG/banner_nho2.gif);">
+                                        <!-- <img src="./asset/IMG/banner-the-phoenix-dan-phuong-300x700.jpg" alt=""> -->
+                                    </a>
+                                </div>
+                                <div class="main-container_warp">
+                                    <a href="" class="" style="background-image: url(/TKW/BTL/asset/IMG/minigame_2016.png); height: 330px; ">
+                                        <!-- <img src="./asset/IMG/banner-the-phoenix-dan-phuong-300x700.jpg" alt=""> -->
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-bottom">
+                        <div class="border-and"></div>
+                    </div>
+                    <div class="main-warpper main-bottom">
+                        <div class="row">
+                            <div class="col l-4">
+                                <a href="#" class="main-news_links ">
+                                    <span class="main-news_item backgr-shadow main-warpper_item" style="background-image: url(./asset/IMG/istock.png); padding-top: 66%; height: 0;">
+                                        <div class="main-news_title main-warpper_title">
+                                            <!-- <a href="" class="main-news_title-link">
+                                                Du Lịch
+                                            </a> -->
+                                            <div class="main-news_title-head main-warpper_title-head">
+                                                30% người lao động sẽ sớm mất việc vì AI
+                                            </div>
+                                            <div class="main-news_title-editor">
+                                                <span class="title-editor_author" style="font-family: 'Open Sans', arial, sans-serif;
+                                                font-size: 11px; font-weight:bold">
+                                                    mona
+                                                </span>
+                                                <span style="margin: 0 4px;">-</span>
+                                                <span class="title-editor_date" style="font-family: 'Open Sans', arial, sans-serif;
+                                                font-size: 11px;">
+                                                    11 Tháng Tư, 2021
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col l-4">
+                                <a href="#" class="main-news_links ">
+                                    <span class="main-news_item backgr-shadow main-warpper_item" style="background-image: url(./asset/IMG/istock.png); padding-top: 66%; height: 0;">
+                                        <div class="main-news_title main-warpper_title">
+                                            <!-- <a href="" class="main-news_title-link">
+                                                Du Lịch
+                                            </a> -->
+                                            <div class="main-news_title-head main-warpper_title-head">
+                                                30% người lao động sẽ sớm mất việc vì AI
+                                            </div>
+                                            <div class="main-news_title-editor">
+                                                <span class="title-editor_author" style="font-family: 'Open Sans', arial, sans-serif;
+                                                font-size: 11px; font-weight:bold">
+                                                    mona
+                                                </span>
+                                                <span style="margin: 0 4px;">-</span>
+                                                <span class="title-editor_date" style="font-family: 'Open Sans', arial, sans-serif;
+                                                font-size: 11px;">
+                                                    11 Tháng Tư, 2021
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col l-4">
+                                <a href="#" class="main-news_links ">
+                                    <span class="main-news_item backgr-shadow main-warpper_item" style="background-image: url(./asset/IMG/istock.png); padding-top: 66%; height: 0;">
+                                        <div class="main-news_title main-warpper_title">
+                                            <!-- <a href="" class="main-news_title-link">
+                                                Du Lịch
+                                            </a> -->
+                                            <div class="main-news_title-head main-warpper_title-head">
+                                                30% người lao động sẽ sớm mất việc vì AI
+                                            </div>
+                                            <div class="main-news_title-editor">
+                                                <span class="title-editor_author" style="font-family: 'Open Sans', arial, sans-serif;
+                                                font-size: 11px; font-weight:bold">
+                                                    mona
+                                                </span>
+                                                <span style="margin: 0 4px;">-</span>
+                                                <span class="title-editor_date" style="font-family: 'Open Sans', arial, sans-serif;
+                                                font-size: 11px;">
+                                                    11 Tháng Tư, 2021
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col l-4">
+                                <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0; margin-top: 20px;">
+                                    <div class="container-list_item">
+                                        <img src="./asset/IMG/ma-tuy-hung-yen.jpg" alt="" class="container-list_img main-warpper_img">
+                                        <!-- <a href="#" class="container-list_link">
+                                            Giải trí
+                                        </a> -->
+                                    </div>
+
+                                    <div class="container-list_intro">
+                                        <h3 href="" class="container-list_intro-title main-warpper_intro-title hover-color">
+                                            <a href="" style="font-family: 'Roboto', sans-serif; font-size: 13px;" class="hover-color">
+                                                45 khách có chất ma túy khi cảnh sát đột kích quán karaoke
+                                            </a>
+                                        </h3>
+                                        <div class="main-news_title-editor">
+                                            <!-- <span class="title-editor_author" style="font-size: 11px;">
+                                                mona
+                                            </span>
+                                            <span style="margin: 0 4px;
+                                            color: #999999;
+                                            font-weight: 100;">-</span> -->
+                                            <span class="main-wallpaper_date" style="font-size: 11px;">
+                                                11 Tháng Tư, 2021
+                                            </span>
+                                        </div>
+                                        <!-- <div class="container-list_intro-text">
+                                            Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4">
+                                <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0; margin-top: 20px;">
+                                    <div class="container-list_item">
+                                        <img src="./asset/IMG/ma-tuy-hung-yen.jpg" alt="" class="container-list_img main-warpper_img">
+                                        <!-- <a href="#" class="container-list_link">
+                                            Giải trí
+                                        </a> -->
+                                    </div>
+
+                                    <div class="container-list_intro">
+                                        <h3 href="" class="container-list_intro-title main-warpper_intro-title hover-color">
+                                            <a href="" style="font-family: 'Roboto', sans-serif; font-size: 13px;" class="hover-color">
+                                                45 khách có chất ma túy khi cảnh sát đột kích quán karaoke
+                                            </a>
+                                        </h3>
+                                        <div class="main-news_title-editor">
+                                            <!-- <span class="title-editor_author" style="font-size: 11px;">
+                                                mona
+                                            </span>
+                                            <span style="margin: 0 4px;
+                                            color: #999999;
+                                            font-weight: 100;">-</span> -->
+                                            <span class="main-wallpaper_date" style="font-size: 11px;">
+                                                11 Tháng Tư, 2021
+                                            </span>
+                                        </div>
+                                        <!-- <div class="container-list_intro-text">
+                                            Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4">
+                                <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0; margin-top: 20px;">
+                                    <div class="container-list_item">
+                                        <img src="./asset/IMG/ma-tuy-hung-yen.jpg" alt="" class="container-list_img main-warpper_img">
+                                        <!-- <a href="#" class="container-list_link">
+                                            Giải trí
+                                        </a> -->
+                                    </div>
+
+                                    <div class="container-list_intro">
+                                        <h3 href="" class="container-list_intro-title main-warpper_intro-title hover-color">
+                                            <a href="" style="font-family: 'Roboto', sans-serif; font-size: 13px;" class="hover-color">
+                                                45 khách có chất ma túy khi cảnh sát đột kích quán karaoke
+                                            </a>
+                                        </h3>
+                                        <div class="main-news_title-editor">
+                                            <!-- <span class="title-editor_author" style="font-size: 11px;">
+                                                mona
+                                            </span>
+                                            <span style="margin: 0 4px;
+                                            color: #999999;
+                                            font-weight: 100;">-</span> -->
+                                            <span class="main-wallpaper_date" style="font-size: 11px;">
+                                                11 Tháng Tư, 2021
+                                            </span>
+                                        </div>
+                                        <!-- <div class="container-list_intro-text">
+                                            Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4">
+                                <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0; margin-top: 20px;">
+                                    <div class="container-list_item">
+                                        <img src="./asset/IMG/ma-tuy-hung-yen.jpg" alt="" class="container-list_img main-warpper_img">
+                                        <!-- <a href="#" class="container-list_link">
+                                            Giải trí
+                                        </a> -->
+                                    </div>
+
+                                    <div class="container-list_intro">
+                                        <h3 href="" class="container-list_intro-title main-warpper_intro-title hover-color">
+                                            <a href="" style="font-family: 'Roboto', sans-serif; font-size: 13px;" class="hover-color">
+                                                45 khách có chất ma túy khi cảnh sát đột kích quán karaoke
+                                            </a>
+                                        </h3>
+                                        <div class="main-news_title-editor">
+                                            <!-- <span class="title-editor_author" style="font-size: 11px;">
+                                                mona
+                                            </span>
+                                            <span style="margin: 0 4px;
+                                            color: #999999;
+                                            font-weight: 100;">-</span> -->
+                                            <span class="main-wallpaper_date" style="font-size: 11px;">
+                                                11 Tháng Tư, 2021
+                                            </span>
+                                        </div>
+                                        <!-- <div class="container-list_intro-text">
+                                            Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4">
+                                <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0; margin-top: 20px;">
+                                    <div class="container-list_item">
+                                        <img src="./asset/IMG/ma-tuy-hung-yen.jpg" alt="" class="container-list_img main-warpper_img">
+                                        <!-- <a href="#" class="container-list_link">
+                                            Giải trí
+                                        </a> -->
+                                    </div>
+
+                                    <div class="container-list_intro">
+                                        <h3 href="" class="container-list_intro-title main-warpper_intro-title hover-color">
+                                            <a href="" style="font-family: 'Roboto', sans-serif; font-size: 13px;" class="hover-color">
+                                                45 khách có chất ma túy khi cảnh sát đột kích quán karaoke
+                                            </a>
+                                        </h3>
+                                        <div class="main-news_title-editor">
+                                            <!-- <span class="title-editor_author" style="font-size: 11px;">
+                                                mona
+                                            </span>
+                                            <span style="margin: 0 4px;
+                                            color: #999999;
+                                            font-weight: 100;">-</span> -->
+                                            <span class="main-wallpaper_date" style="font-size: 11px;">
+                                                11 Tháng Tư, 2021
+                                            </span>
+                                        </div>
+                                        <!-- <div class="container-list_intro-text">
+                                            Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4">
+                                <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0; margin-top: 20px;">
+                                    <div class="container-list_item">
+                                        <img src="./asset/IMG/ma-tuy-hung-yen.jpg" alt="" class="container-list_img main-warpper_img">
+                                        <!-- <a href="#" class="container-list_link">
+                                            Giải trí
+                                        </a> -->
+                                    </div>
+
+                                    <div class="container-list_intro">
+                                        <h3 href="" class="container-list_intro-title main-warpper_intro-title hover-color">
+                                            <a href="" style="font-family: 'Roboto', sans-serif; font-size: 13px;" class="hover-color">
+                                                45 khách có chất ma túy khi cảnh sát đột kích quán karaoke
+                                            </a>
+                                        </h3>
+                                        <div class="main-news_title-editor">
+                                            <!-- <span class="title-editor_author" style="font-size: 11px;">
+                                                mona
+                                            </span>
+                                            <span style="margin: 0 4px;
+                                            color: #999999;
+                                            font-weight: 100;">-</span> -->
+                                            <span class="main-wallpaper_date" style="font-size: 11px;">
+                                                11 Tháng Tư, 2021
+                                            </span>
+                                        </div>
+                                        <!-- <div class="container-list_intro-text">
+                                            Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4">
+                                <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0; margin-top: 20px;">
+                                    <div class="container-list_item">
+                                        <img src="./asset/IMG/ma-tuy-hung-yen.jpg" alt="" class="container-list_img main-warpper_img">
+                                        <!-- <a href="#" class="container-list_link">
+                                            Giải trí
+                                        </a> -->
+                                    </div>
+
+                                    <div class="container-list_intro">
+                                        <h3 href="" class="container-list_intro-title main-warpper_intro-title hover-color">
+                                            <a href="" style="font-family: 'Roboto', sans-serif; font-size: 13px;" class="hover-color">
+                                                45 khách có chất ma túy khi cảnh sát đột kích quán karaoke
+                                            </a>
+                                        </h3>
+                                        <div class="main-news_title-editor">
+                                            <!-- <span class="title-editor_author" style="font-size: 11px;">
+                                                mona
+                                            </span>
+                                            <span style="margin: 0 4px;
+                                            color: #999999;
+                                            font-weight: 100;">-</span> -->
+                                            <span class="main-wallpaper_date" style="font-size: 11px;">
+                                                11 Tháng Tư, 2021
+                                            </span>
+                                        </div>
+                                        <!-- <div class="container-list_intro-text">
+                                            Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4">
+                                <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0; margin-top: 20px;">
+                                    <div class="container-list_item">
+                                        <img src="./asset/IMG/ma-tuy-hung-yen.jpg" alt="" class="container-list_img main-warpper_img">
+                                        <!-- <a href="#" class="container-list_link">
+                                            Giải trí
+                                        </a> -->
+                                    </div>
+
+                                    <div class="container-list_intro">
+                                        <h3 href="" class="container-list_intro-title main-warpper_intro-title hover-color">
+                                            <a href="" style="font-family: 'Roboto', sans-serif; font-size: 13px;" class="hover-color">
+                                                45 khách có chất ma túy khi cảnh sát đột kích quán karaoke
+                                            </a>
+                                        </h3>
+                                        <div class="main-news_title-editor">
+                                            <!-- <span class="title-editor_author" style="font-size: 11px;">
+                                                mona
+                                            </span>
+                                            <span style="margin: 0 4px;
+                                            color: #999999;
+                                            font-weight: 100;">-</span> -->
+                                            <span class="main-wallpaper_date" style="font-size: 11px;">
+                                                11 Tháng Tư, 2021
+                                            </span>
+                                        </div>
+                                        <!-- <div class="container-list_intro-text">
+                                            Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4">
+                                <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0; margin-top: 20px;">
+                                    <div class="container-list_item">
+                                        <img src="./asset/IMG/ma-tuy-hung-yen.jpg" alt="" class="container-list_img main-warpper_img">
+                                        <!-- <a href="#" class="container-list_link">
+                                            Giải trí
+                                        </a> -->
+                                    </div>
+
+                                    <div class="container-list_intro">
+                                        <h3 href="" class="container-list_intro-title main-warpper_intro-title hover-color">
+                                            <a href="" style="font-family: 'Roboto', sans-serif; font-size: 13px;" class="hover-color">
+                                                45 khách có chất ma túy khi cảnh sát đột kích quán karaoke
+                                            </a>
+                                        </h3>
+                                        <div class="main-news_title-editor">
+                                            <!-- <span class="title-editor_author" style="font-size: 11px;">
+                                                mona
+                                            </span>
+                                            <span style="margin: 0 4px;
+                                            color: #999999;
+                                            font-weight: 100;">-</span> -->
+                                            <span class="main-wallpaper_date" style="font-size: 11px;">
+                                                11 Tháng Tư, 2021
+                                            </span>
+                                        </div>
+                                        <!-- <div class="container-list_intro-text">
+                                            Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="main-bottom">
+                        <div class="border-and"></div>
+                    </div>
+                    <div class="main-container main-bottom">
+                        <div class="row">
+                            <div class="col l-8">
+                                <div class="main-container_elm">
+                                    <div class="row">
+                                        <div class="col l-12">
+                                            <div class="main-container_list" style="border: none; margin-top: 0px; padding-bottom: 10px; margin-bottom: 20px;">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/nghe.png" alt="" class="container-list_img">
+                                                    <!-- <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a> -->
+                                                </div>
+            
+                                                <div class="container-list_intro ">
+                                                    <h3 href="" class="container-list_intro-title ">
+                                                        <a href="" class="hover-color">
+                                                            Cách ăn bột nghệ chữa bệnh hiệu quả
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Pha loãng 2-3 thìa bột nghệ với 100 ml nước, uống trước và sau ăn 1-2 giờ, có thể thêm mật ong, sữa, với... 
+                                                    </div>
+                                                    <div class="comments">
+                                                        <span class="amount">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list" style="border: none; margin-top: 0px; padding-bottom: 10px; margin-bottom: 20px;">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/nghe.png" alt="" class="container-list_img">
+                                                    <!-- <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a> -->
+                                                </div>
+            
+                                                <div class="container-list_intro ">
+                                                    <h3 href="" class="container-list_intro-title ">
+                                                        <a href="" class="hover-color">
+                                                            Cách ăn bột nghệ chữa bệnh hiệu quả
+
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Pha loãng 2-3 thìa bột nghệ với 100 ml nước, uống trước và sau ăn 1-2 giờ, có thể thêm mật ong, sữa, với... 
+                                                    </div>
+                                                    <div class="comments">
+                                                        <span class="amount">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list" style="border: none; margin-top: 0px; padding-bottom: 10px; margin-bottom: 20px;">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/nghe.png" alt="" class="container-list_img">
+                                                    <!-- <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a> -->
+                                                </div>
+            
+                                                <div class="container-list_intro ">
+                                                    <h3 href="" class="container-list_intro-title ">
+                                                        <a href="" class="hover-color">
+                                                            Cách ăn bột nghệ chữa bệnh hiệu quả
+
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Pha loãng 2-3 thìa bột nghệ với 100 ml nước, uống trước và sau ăn 1-2 giờ, có thể thêm mật ong, sữa, với... 
+                                                    </div>
+                                                    <div class="comments">
+                                                        <span class="amount">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list" style="border: none; margin-top: 0px; padding-bottom: 10px; margin-bottom: 20px;">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/nghe.png" alt="" class="container-list_img">
+                                                    <!-- <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a> -->
+                                                </div>
+            
+                                                <div class="container-list_intro ">
+                                                    <h3 href="" class="container-list_intro-title ">
+                                                        <a href="" class="hover-color">
+                                                            Cách ăn bột nghệ chữa bệnh hiệu quả
+
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Pha loãng 2-3 thìa bột nghệ với 100 ml nước, uống trước và sau ăn 1-2 giờ, có thể thêm mật ong, sữa, với... 
+                                                    </div>
+                                                    <div class="comments">
+                                                        <span class="amount">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list" style="border: none; margin-top: 0px; padding-bottom: 10px; margin-bottom: 20px;">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/nghe.png" alt="" class="container-list_img">
+                                                    <!-- <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a> -->
+                                                </div>
+            
+                                                <div class="container-list_intro ">
+                                                    <h3 href="" class="container-list_intro-title ">
+                                                        <a href="" class="hover-color">
+                                                            Cách ăn bột nghệ chữa bệnh hiệu quả
+ 
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <div class="container-list_intro-text">
+                                                        Pha loãng 2-3 thìa bột nghệ với 100 ml nước, uống trước và sau ăn 1-2 giờ, có thể thêm mật ong, sữa, với... 
+                                                    </div>
+                                                    <div class="comments">
+                                                        <span class="amount">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="page-nav">
+                                                <span class="current">
+                                                    1
+                                                </span>
+                                                <a href="" class="page">2</a>
+                                                <a href="" class="page">3</a>
+                                                <a href="" class="page">4</a>
+                                                <span class="extend">...</span>
+                                                <a href="" class="last">13</a>
+                                                <a href="">
+                                                    <i class="ti-angle-right"></i>
+                                                </a>
+                                                <span class="pages">Page 1 of 13</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col l-4">
+                                <div class="main-container_elm">
+                                    <div class="row">
+
+                                        <div class="col l-12">
+                                            <div class="warp_title">
+                                                <h4 class="warp_title-header">
+                                                    <span class="warp_title-text">
+                                                        Thời trang
+                                                    </span>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0;">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/sieu-mau-kim-dung15_dbru-150x150.jpg" alt="" class="container-list_img" style="width: 100px; height: 100px; object-fit: cover;">
+                                                    <!-- <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a> -->
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title" style="font-size: 17px;
+                                                    line-height: 23px;
+                                                    min-height: 0;
+                                                    padding-left: 0;
+                                                    ">
+                                                        <a href="" style="font-family: 'Roboto', sans-serif;
+                                                        font-weight: 400;" class="hover-color">
+                                                            30% người lao động sẽ sớm mất việc vì AI
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <!-- <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div> -->
+                                                    <div class="comments">
+                                                        <span class="amount">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0;">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/sieu-mau-kim-dung15_dbru-150x150.jpg" alt="" class="container-list_img" style="width: 100px; height: 100px; object-fit: cover;">
+                                                    <!-- <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a> -->
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title" style="font-size: 17px;
+                                                    line-height: 23px;
+                                                    min-height: 0;
+                                                    padding-left: 0;
+                                                    ">
+                                                        <a href="" style="font-family: 'Roboto', sans-serif;
+                                                        font-weight: 400;" class="hover-color">
+                                                            30% người lao động sẽ sớm mất việc vì AI
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <!-- <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div> -->
+                                                    <div class="comments">
+                                                        <span class="amount">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0;">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/sieu-mau-kim-dung15_dbru-150x150.jpg" alt="" class="container-list_img" style="width: 100px; height: 100px; object-fit: cover;">
+                                                    <!-- <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a> -->
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title" style="font-size: 17px;
+                                                    line-height: 23px;
+                                                    min-height: 0;
+                                                    padding-left: 0;
+                                                    ">
+                                                        <a href="" style="font-family: 'Roboto', sans-serif;
+                                                        font-weight: 400;" class="hover-color">
+                                                            30% người lao động sẽ sớm mất việc vì AI 
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <!-- <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div> -->
+                                                    <div class="comments">
+                                                        <span class="amount">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-btn" style="padding-left: 0px; margin-top: 10px; margin-bottom: 0;">
+                                                <a href="" class="main-btn_links btn-disibale">
+                                                    <i class="ti-angle-left main-btn_icon"></i>
+                                                </a>
+                                                <a href="" class="main-btn_links">
+                                                    <i class="ti-angle-right main-btn_icon"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col l-12">
+                                            <div class="main-bottom" style="width: 100%; margin-top: 40px; padding: 0 0;">
+                                                <div class="border-and"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-12">
+                                            <div class="warp_title">
+                                                <h4 class="warp_title-header">
+                                                    <span class="warp_title-text">
+                                                        Làm đẹp
+                                                    </span>
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-12">
+                                            <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0;">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/sieu-mau-kim-dung15_dbru-150x150.jpg" alt="" class="container-list_img" style="width: 100px; height: 100px; object-fit: cover;">
+                                                    <!-- <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a> -->
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title" style="font-size: 17px;
+                                                    line-height: 23px;
+                                                    min-height: 0;
+                                                    padding-left: 0;
+                                                    ">
+                                                        <a href="" style="font-family: 'Roboto', sans-serif;
+                                                        font-weight: 400;" class="hover-color">
+                                                            30% người lao động sẽ sớm mất việc vì AI 
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <!-- <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div> -->
+                                                    <div class="comments">
+                                                        <span class="amount">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0;">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/sieu-mau-kim-dung15_dbru-150x150.jpg" alt="" class="container-list_img" style="width: 100px; height: 100px; object-fit: cover;">
+                                                    <!-- <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a> -->
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title" style="font-size: 17px;
+                                                    line-height: 23px;
+                                                    min-height: 0;
+                                                    padding-left: 0;
+                                                    ">
+                                                        <a href="" style="font-family: 'Roboto', sans-serif;
+                                                        font-weight: 400;" class="hover-color">
+                                                            30% người lao động sẽ sớm mất việc vì AI
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <!-- <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div> -->
+                                                    <div class="comments">
+                                                        <span class="amount">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-container_list margin-disable" style="border: none; padding-bottom: 0;">
+                                                <div class="container-list_item">
+                                                    <img src="./asset/IMG/sieu-mau-kim-dung15_dbru-150x150.jpg" alt="" class="container-list_img" style="width: 100px; height: 100px; object-fit: cover;">
+                                                    <!-- <a href="#" class="container-list_link">
+                                                        Giải trí
+                                                    </a> -->
+                                                </div>
+            
+                                                <div class="container-list_intro">
+                                                    <h3 href="" class="container-list_intro-title" style="font-size: 17px;
+                                                    line-height: 23px;
+                                                    min-height: 0;
+                                                    padding-left: 0;
+                                                    ">
+                                                        <a href="" style="font-family: 'Roboto', sans-serif;
+                                                        font-weight: 400;" class="hover-color">
+                                                            30% người lao động sẽ sớm mất việc vì AI 
+                                                        </a>
+                                                    </h3>
+                                                    <div class="main-news_title-editor">
+                                                        <span class="title-editor_author" style="font-size: 12px;">
+                                                            mona
+                                                        </span>
+                                                        <span style="margin: 0 4px;
+                                                        color: #999999;
+                                                        font-weight: 100;">-</span>
+                                                        <span class="main-wallpaper_date">
+                                                            11 Tháng Tư, 2021
+                                                        </span>
+                                                    </div>
+                                                    <!-- <div class="container-list_intro-text">
+                                                        Minh tinh Đài Loan mong người khác không hỏi chuyện chồng con vì cô hài lòng với cuộc sống 
+                                                    </div> -->
+                                                    <div class="comments">
+                                                        <span class="amount">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l-12">
+                                            <div class="main-btn" style="padding-left: 0px; margin-top: 24px; margin-bottom: 0;">
+                                                <a href="" class="main-btn_links btn-disibale">
+                                                    <i class="ti-angle-left main-btn_icon"></i>
+                                                </a>
+                                                <a href="" class="main-btn_links">
+                                                    <i class="ti-angle-right main-btn_icon"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer">
+                <div class="row">
+                    <div class="col l-4">
+                        <div class="footer-logo">
+                            <img src="./asset/IMG/logo-mona-w-300x120.png" alt="" class="footer-logo_img">
+                        </div>
+                    </div>
+    
+                    <div class="col l-5">
+                        <div class="footer-aboutus">
+                            <div class="footer-aboutus_title">
+                                ABOUT US
+                            </div>
+    
+                            Chuyên mục tin tức của Mona Media. © 2019 mona.media
+                            <br>
+                            
+                            Địa chỉ: Thanh Nguyên, Thanh Liêm, Hà Nam, Việt Nam <br>
+                            Email: dunglm363@gmail.com | Điện thoại: 091245754
+                        </div>
+                    </div>
+    
+                    <div class="col l-3">
+                        <div class="footer-flus">
+                            <div class="footer-flus_title">
+                                FOLLOW US
+                            </div>
+    
+                            <div class="footer-icon">
+                                <a href="" class="icon-link">
+                                    <i class="fab fa-google-plus-g google" style="line-height: 40px;"></i>
+                                </a>
+                            
+                                <a href="" class="icon-link">
+                                    <i class="fab fa-facebook-f facebook" style="line-height: 40px;" onclick="hoVer(this)"></i>
+                                </a>
+                            
+                                <a href="" class="icon-link">
+                                    <i class="fab fa-instagram instagram" style="line-height: 40px;"></i>
+                                </a>
+                            
+                                <a href="" class="icon-link">
+                                    <i class="fab fa-twitter twitter" style="line-height: 40px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+
+        <div class="license">
+            <div class="row">
+                <div class="col l-12">
+                    <div class="license-text">
+                        © Bản quyền thuộc về công ty thiết kết website Mạnh Dũng
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+        
+    </div>
+    
+    <div class="scroll-up td-scroll-up-visible">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    
+    
+    
+</body>
+</html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script>
+    //Khi người dùng cuộn chuột thì gọi hàm scrollFunction
+    window.onscroll = function() {scrollFunction()};
+    // khai báo hàm scrollFunction
+    function scrollFunction() {
+        // Kiểm tra vị trí hiện tại của con trỏ so với nội dung trang
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            //nếu lớn hơn 20px thì hiện button
+            document.querySelector(".scroll-up").style.display = "block";
+        } else {
+             //nếu nhỏ hơn 20px thì ẩn button
+            document.querySelector(".scroll-up").style.display = "none";
+        }
+    }
+    //gán sự kiện click cho button
+    document.querySelector('.scroll-up').addEventListener("click", function(){
+        //Nếu button được click thì nhảy về đầu trang
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    });
+</script>
+
+<script>
+    var checkbox_toggle = document.getElementById('light-dark');
+    var div = document.getElementsByTagName("div");
+    checkbox_toggle.addEventListener('change', function(){
+        // THêm class dark cho body
+        document.body.classList.toggle('dark');
+        document.querySelector(".backgr-body").classList.toggle("dark");
+        document.querySelector(".header").classList.toggle('dark');
+    });
+
+    // var color = document.querySelector(".header-list_item-link");
+    // function changeColor(element) {
+    //         color.classList.toggle('dark');
+    // }
+    // div.addEventListener('click', changeColor())
+</script>
+
+<!-- <script type="text/javascript">
+    var color = ["#222f3e", "#f368e0", "#ee5253", "#0abde3"];
+    var i = 0;
+    document.querySelector(".icon").addEventListener("click", function(){
+        i = i < color.length ? i++ : 0;
+        document.querySelector(".icon-link").style.background = color[i]
+    })
+</script> -->
+
+<!-- <script>
+    var color = ["#222f3e", "#f368e0", "#ee5253", "#0abde3"];
+    var i = 0;
+    function hoVer() {
+        i = i < color.length ? i++ : 0;
+        document.querySelector(".icon-link").style.background = color[i];
+    }
+    document.querySelector(".icon").addEventListener("click", hoVer)
+</script>
+
+<script>
+    function activeReaction(element) {            
+        var al = element.parentElement.parentElement.querySelector('.icon-link').classList.toggle('icon');
+        for( var i = 0; i < al.length; i++) {
+            al[i].click();
+        }
+        console.log(element.parentElement.parentElement.querySelector('.icon-link'))
+    }
+</script> -->
